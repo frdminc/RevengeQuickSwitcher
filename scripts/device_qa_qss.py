@@ -1661,7 +1661,7 @@ def ui_lists_safe_channel(ui: str, guild_key: str | None = None) -> bool:
 
 QSS_INSTALL_URL = os.environ.get(
     "QSS_INSTALL_URL",
-    "https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/",
+    "https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/",
 )
 
 
@@ -3482,7 +3482,7 @@ def audit_host(
                             log(
                                 "Quick Server Switcher not installed on %s — "
                                 "Revenge → Plugins → Install: "
-                                "https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/" % host
+                                "https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/" % host
                             )
                         elif quest_bar_blocks_profile(hs):
                             issues.append("quest_bar_blocks_profile")

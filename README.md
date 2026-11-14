@@ -40,7 +40,7 @@ Jump path uses Discord deep links (`openUrl`), matching known-good Revenge plugi
 Revenge fetches `{url}/manifest.json`, so you must paste a **raw** base URL (not the GitHub repo page):
 
 ```
-https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/
+https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/
 ```
 
 1. Copy the URL above (trailing slash is fine).
@@ -56,7 +56,7 @@ If install fails with “Failed to fetch manifest”, you almost certainly paste
 If the main plugin installs but will not enable, install this tiny plugin first:
 
 ```
-https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/smoke/
+https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/smoke/
 ```
 
 - If **smoke enables** (toggle stays on, wrench opens): Revenge loading works; the main plugin still has a start bug.
@@ -87,7 +87,7 @@ Full setup, Hermes constraints, and device debug loop: **[HACKING.md](HACKING.md
 ### Setup
 
 ```bash
-git clone https://github.com/djbclark/RevengeQuickSwitcher.git
+git clone https://github.com/frdminc/RevengeQuickSwitcher.git
 cd RevengeQuickSwitcher
 just install   # or: npm install
 ```
@@ -180,7 +180,7 @@ Then walk the checklist at the bottom of `TESTING.md` on your device (**OPTIONS 
 3. Update docs (`CHANGELOG.md` / `OPTIONS.md` / handoff notes) when behavior changes.
 4. Open a pull request with a clear description of the change.
 
-Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/djbclark/RevengeQuickSwitcher/issues).
+Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/frdminc/RevengeQuickSwitcher/issues).
 
 ### CI
 

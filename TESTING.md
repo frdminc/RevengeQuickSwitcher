@@ -13,7 +13,7 @@ Related: [HANDOFF.md](HANDOFF.md) (current state / nav invariants) · [HACKING.m
 - Repository cloned and dependencies installed:
 
 ```bash
-git clone https://github.com/djbclark/RevengeQuickSwitcher.git
+git clone https://github.com/frdminc/RevengeQuickSwitcher.git
 cd RevengeQuickSwitcher
 just install
 ```
@@ -21,7 +21,7 @@ just install
 ### Device (Revenge client)
 
 - Discord mobile with **Revenge** installed and working
-- Plugin URL: `https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/`
+- Plugin URL: `https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/`
 - At least **2 servers** joined (more is better for pagination and search tests)
 - Optional: **40+ servers** to exercise pagination fully
 - Optional: at least one **server folder** in the sidebar for flat-sidebar tests
@@ -70,7 +70,7 @@ If local verification fails, fix the issue before testing on device.
 
 1. Open Discord on your device.
 2. Go to **User Settings → Revenge → Plugins**.
-3. **New install:** tap **+**, paste `https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/`, confirm (allow unproxied if prompted).
+3. **New install:** tap **+**, paste `https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/`, confirm (allow unproxied if prompted).
 4. **Update:** remove and re-add the plugin, or use Revenge's update/reload control if available.
 5. **Reload Discord** fully (force-quit and reopen).
 6. Confirm **Quick Server Switcher** appears in the plugin list and is enabled.
@@ -379,7 +379,7 @@ If local verification fails, fix the issue before testing on device.
 
 ## Part 8 — Reporting issues
 
-If something fails, open a [GitHub Issue](https://github.com/djbclark/RevengeQuickSwitcher/issues/new) with:
+If something fails, open a [GitHub Issue](https://github.com/frdminc/RevengeQuickSwitcher/issues/new) with:
 
 1. **Revenge / Discord version** (if known)
 2. **Plugin version** (from `manifest.json` or release tag)
@@ -403,9 +403,9 @@ Copy this for the release candidate. Prefer a fresh plugin install/update from t
 ```
 [ ] just verify — all green locally (or CI green on main)
 [ ] Plugin installs / updates on Revenge without crash (shows 4.5.9 if version visible)
-  Install URL: https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/
+  Install URL: https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/
 [ ] Smoke plugin installs and ENABLES (toggle on, no X)
-  Smoke URL: https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/smoke/
+  Smoke URL: https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/smoke/
 [ ] Main plugin installs and ENABLES after smoke passes
 [ ] Settings open; readable in light and dark theme
 [ ] /servers — opens top switcher; Close dismisses; tap jumps and closes overlay
