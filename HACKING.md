@@ -39,7 +39,7 @@ Revenge and Discord client versions churn; always record `/debug` output when fi
 ### 1.1 Clone and install
 
 ```bash
-git clone https://github.com/djbclark/RevengeQuickSwitcher.git
+git clone https://github.com/frdminc/RevengeQuickSwitcher.git
 cd RevengeQuickSwitcher
 just install   # or: npm install
 ```
@@ -119,7 +119,7 @@ React, React Native, and `@revenge-mod/*` stay external — provided by the clie
 ### 3.1 Raw URL (not github.com HTML)
 
 ```
-https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/
+https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/
 ```
 
 Revenge fetches `{url}/manifest.json`. Trailing slash is fine. If you paste the repo page URL, install fails with “Failed to fetch manifest”.
@@ -136,7 +136,7 @@ Revenge fetches `{url}/manifest.json`. Trailing slash is fine. If you paste the 
 If main will not enable:
 
 ```
-https://raw.githubusercontent.com/djbclark/RevengeQuickSwitcher/main/smoke/
+https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/smoke/
 ```
 
 | Smoke   | Main  | Meaning                                 |
